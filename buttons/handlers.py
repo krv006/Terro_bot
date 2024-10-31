@@ -33,3 +33,4 @@ async def change_language(message: Message) -> None:
     ikb.row(InlineKeyboardButton(text=_('🇺🇿uzbek'), callback_data='lang_uz'),
             InlineKeyboardButton(text=_('🇷🇺russion'), callback_data='lang_ru'))
     await message.answer(_('Change language'), reply_markup=ikb.as_markup())
+
