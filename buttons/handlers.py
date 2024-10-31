@@ -21,11 +21,9 @@ user_router = Router()
 async def command_start_handler(message: Message) -> None:
     await message.answer(
         """
-        Здравствуйте! 🌟 Давайте для начала выберем язык обслуживания! 
-        \n\n 
-        Assalomu aleykum! 🌟 Keling, avvaliga xizmat ko’rsatish tilini tanlab olaylik. 🌐 
-        \n\n
-        Choose a language, please
+        Здравствуйте! 🌟 Давайте для начала выберем язык обслуживания! \n
+Assalomu aleykum! 🌟 Keling, avvaliga xizmat ko’rsatish tilini tanlab olaylik. 🌐 \n
+Choose a language, please
         """)
 
 
